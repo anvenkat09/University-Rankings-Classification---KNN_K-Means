@@ -56,7 +56,6 @@ public class Properties {
 		System.out.println(this.country);
 		System.out.println(this.nationalRank);
 		System.out.println(this.qualityOfEducation);
-
 		System.out.println(this.alumniEmployment);
 		System.out.println(this.qualityOfFaculty);
 
