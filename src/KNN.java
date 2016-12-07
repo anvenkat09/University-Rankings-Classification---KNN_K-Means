@@ -10,13 +10,36 @@ import java.util.Scanner;
 import java.util.TreeMap;
 
 public class KNN {
-	public static HashMap<String, Properties> map;
+	//public static HashMap<String, Properties> map;
 	
+	//global arraylist of properties
+	public static ArrayList<Properties> listOfUni = new ArrayList<Properties>();
+	
+	public static ArrayList<Properties> oldCentroids = new ArrayList<Properties>();
+	public static ArrayList<Properties> newCentroids = new ArrayList<Properties>();
+	
+	/**
+	 * clusters
+	 */
+	public static HashMap<String, Properties> c1 = new HashMap<String, Properties>();
+	public static HashMap<String, Properties> c2 = new HashMap<String, Properties>();
+	public static HashMap<String, Properties> c3 = new HashMap<String, Properties>();
+	public static HashMap<String, Properties> c4 = new HashMap<String, Properties>();
+	public static HashMap<String, Properties> c5 = new HashMap<String, Properties>();
+	
+	/**
+	 * arraylist of clusters
+	 */
+	public static ArrayList<HashMap<String, Properties>> clusters = new ArrayList<HashMap<String,Properties>>();
+	
+
+	/**
+	 * processes the data of universities and attributes into a list of Properties
+	 */
 	public static void process() {
-		map = new HashMap<String, Properties>();
 		boolean flag = false;
 		try {
-			FileReader input = new FileReader("excelData.csv");
+			FileReader input = new FileReader("uniData.csv");
 			BufferedReader bufRead = new BufferedReader(input);
 			String myLine = null;
 
@@ -28,10 +51,8 @@ public class KNN {
 						System.out.println("Bad sized line.");
 						return;
 					}
-					
-				    Properties p = new Properties(arr[2], Integer.parseInt(arr[3]), 
-							Integer.parseInt(arr[4]), Integer.parseInt(arr[5]), Integer.parseInt(arr[6]));
-				    map.put(arr[1], p);
+				    Properties p = new Properties(arr[1], (arr[2]), Integer.parseInt(arr[3]), Integer.parseInt(arr[4]));
+				    listOfUni.add(p);
 				}
 				flag = true;	
 			}
@@ -40,8 +61,20 @@ public class KNN {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
+		/**
+		 * prints the list
+		 */
+		for(int i = 0; i < listOfUni.size(); i++){
+			listOfUni.get(i).printProperties();
+		}
 	}
 	
+	/**
+	 * searches for k nearest neighbors (distance formula already applied)
+	 * @param results
+	 * @param kValue
+	 */
 	public static void findNearestNeighbors(TreeMap <Double, String> results, int kValue){
 		int counter = -1;
 		for(Map.Entry<Double, String> entry: results.entrySet()){
@@ -55,7 +88,10 @@ public class KNN {
 		}
 	}
 	
-	public static void userInput(){
+	/**
+	 * gets user input and finds vector distances between all schools and stores them into hashmap
+	 */
+	/*public static void userInput(){
 		String univName = null;
 		int kValue = 0;
 		TreeMap<Double, String> results = new TreeMap<Double, String>();
@@ -80,13 +116,41 @@ public class KNN {
 		}
 		
 		findNearestNeighbors(results, kValue);
+	}*/
+	
+/*	public static void cluster(){
+		int i = 0;
+		TreeMap<String, Double> temp = new TreeMap();
+		for(HashMap<String, Properties> cluster : clusters){
+			for(Map.Entry<String, Properties> entry: map.entrySet()){
+				if (!entry.getValue().equals(oldCentroids.get(i))){
+					temp.put(entry.getKey(), oldCentroids.get(i).distance(entry.getValue()));
+				}
+			}
+		}
 	}
-
+*/
 	
 	public static void main(String[] args) {
-		process();
-		//Properties p = map.get("Yale University");
-	//	p.printProperties();
-		userInput();
+		process(); // adds the data into the hashmap
+		
+		/**
+		 * starting centroid values
+		 */
+	/*	oldCentroids.add(new Properties("USA", 1, 1, 1,	1));
+		oldCentroids.add(new Properties("Netherlands", 8, 355, 478, 210));
+		oldCentroids.add(new Properties("Germany", 40, 355, 478, 210));
+		oldCentroids.add(new Properties("France", 35, 355, 478, 210));
+		oldCentroids.add(new Properties("China", 84, 355, 478, 210));
+		*/
+		/**
+		 * adds all clusters to the hashmap
+		 */
+		clusters.add(c1);
+		clusters.add(c2);
+		clusters.add(c3);
+		clusters.add(c4);
+		clusters.add(c5);
+		
 	}
 }
