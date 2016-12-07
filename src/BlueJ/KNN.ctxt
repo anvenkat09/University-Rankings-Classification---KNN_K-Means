@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ process()
+comment0.text=\n\ processes\ the\ data\ of\ universities\ and\ attributes\ into\ a\ list\ of\ University\n
+comment1.params=results\ kValue
+comment1.target=void\ findNearestNeighbors(java.util.TreeMap,\ int)
+comment1.text=\n\ searches\ for\ k\ nearest\ neighbors\ (distance\ formula\ already\ applied)\n\ @param\ results\n\ @param\ kValue\n
+comment2.params=current
+comment2.target=University\ findMin(University)
+comment2.text=\n\ gets\ user\ input\ and\ finds\ vector\ distances\ between\ all\ schools\ and\ stores\ them\ into\ hashmap\n
+comment3.params=
+comment3.target=void\ processClusters()
+comment4.params=
+comment4.target=void\ initializeClusters()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
