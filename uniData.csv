@@ -1,0 +1,1001 @@
+world_rank,institution,country,national_rank,quality_of_education,alumni_employment
+1,Harvard University,USA,1,1,1
+2,Stanford University,USA,2,11,2
+3,Massachusetts Institute of Technology,USA,3,3,11
+4,University of Cambridge,United Kingdom,1,2,10
+5,University of Oxford,United Kingdom,2,7,12
+6,Columbia University,USA,4,13,8
+7,University of California Berkeley,USA,5,4,22
+8,University of Chicago,USA,6,10,14
+9,Princeton University,USA,7,5,16
+10,Yale University,USA,8,9,25
+11,Cornell University,USA,9,12,18
+12,California Institute of Technology,USA,10,6,303
+13,University of Tokyo,Japan,1,17,3
+14,University of Pennsylvania,USA,11,21,4
+15,University of California Los Angeles,USA,12,27,27
+16,Kyoto University,Japan,2,30,23
+17,New York University,USA,13,33,21
+18,Swiss Federal Institute of Technology in Zurich,Switzerland,1,16,105
+19,Johns Hopkins University,USA,14,24,75
+20,University of California San Diego,USA,15,32,478
+21,University of Michigan Ann Arbor,USA,16,29,19
+22,Hebrew University of Jerusalem,Israel,1,15,255
+23,Northwestern University,USA,17,151,13
+24,Seoul National University,South Korea,1,355,9
+25,University of Wisconsin‰ÛÒMadison,USA,18,31,28
+26,Duke University,USA,19,65,30
+27,University of California San Francisco,USA,20,355,478
+28,University of Illinois at Urbana‰ÛÒChampaign,USA,21,34,80
+29,University of Texas at Austin,USA,22,92,39
+30,University College London,United Kingdom,3,20,406
+31,University of Toronto,Canada,1,71,45
+32,University of Washington - Seattle,USA,23,89,107
+33,Rutgers University-New Brunswick,USA,24,91,33
+34,Keio University,Japan,3,271,5
+35,Ìäcole normale supÌ©rieure - Paris,France,1,8,478
+36,Ìäcole Polytechnique,France,2,150,6
+37,Rockefeller University,USA,25,72,478
+38,Weizmann Institute of Science,Israel,2,18,478
+39,Imperial College London,United Kingdom,4,121,98
+40,Waseda University,Japan,4,355,7
+41,University of Virginia,USA,26,194,17
+42,McGill University,Canada,2,45,32
+43,Osaka University,Japan,5,69,36
+44,Dartmouth College,USA,27,46,15
+45,University of North Carolina at Chapel Hill,USA,28,179,86
+46,Pennsylvania State University University Park,USA,29,226,42
+47,Ohio State University Columbus,USA,30,93,65
+48,Lomonosov Moscow State University,Russia,1,14,210
+49,University of Minnesota Twin Cities,USA,31,61,159
+50,University of Paris-Sud,France,3,26,410
+51,University of Southern California,USA,32,148,74
+52,Purdue University West Lafayette,USA,33,81,52
+53,University of Pittsburgh - Pittsburgh Campus,USA,34,76,195
+54,Carnegie Mellon University,USA,35,25,219
+55,Peking University,China,1,355,35
+56,University of Edinburgh,United Kingdom,5,42,131
+57,University of California Davis,USA,36,47,192
+58,Washington University in St. Louis,USA,37,96,145
+59,University of Florida,USA,38,212,299
+60,University of California Santa Barbara,USA,39,124,252
+61,University of British Columbia,Canada,3,85,298
+62,University of Utah,USA,40,88,91
+63,University of Colorado Boulder,USA,41,75,56
+64,University of Notre Dame,USA,42,197,20
+65,National Taiwan University,Taiwan,1,113,24
+66,University of Texas Southwestern Medical Center,USA,43,50,478
+67,Boston University,USA,44,291,47
+68,Pierre-and-Marie-Curie University,France,4,36,431
+69,University of Manchester,United Kingdom,6,98,73
+70,University of Arizona,USA,45,99,62
+71,Vanderbilt University,USA,46,108,90
+72,Tohoku University,Japan,6,40,241
+73,Karolinska Institute,Sweden,1,126,478
+74,National University of Singapore,Singapore,1,355,99
+75,University of Geneva,Switzerland,2,48,151
+76,University of Maryland College Park,USA,47,63,198
+77,University of Rochester,USA,48,60,50
+78,Emory University,USA,49,355,97
+79,University of Copenhagen,Denmark,1,111,143
+80,University of California Irvine,USA,50,217,478
+81,Brown University,USA,51,56,46
+82,Ludwig Maximilian University of Munich,Germany,1,43,156
+83,Georgia Institute of Technology,USA,52,123,77
+84,Tufts University,USA,53,68,43
+85,University of Zurich,Switzerland,3,110,404
+86,Tel Aviv University,Israel,3,74,122
+87,Tsinghua University,China,2,294,63
+88,Utrecht University,Netherlands,1,102,181
+89,Ruprecht Karl University of Heidelberg,Germany,2,57,426
+90,King's College London,United Kingdom,7,28,173
+91,Sapienza University of Rome,Italy,1,66,178
+92,Kyushu University,Japan,7,355,41
+93,Swiss Federal Institute of Technology in Lausanne,Switzerland,4,355,130
+94,Katholieke Universiteit Leuven,Belgium,1,355,225
+95,University of Sydney,Australia,1,127,158
+96,Tokyo Institute of Technology,Japan,8,208,48
+97,University of Melbourne,Australia,2,136,101
+98,University of Bonn,Germany,3,23,275
+99,Technical University of Munich,Germany,4,38,138
+100,Royal Institute of Technology,Sweden,2,185,26
+101,Erasmus University Rotterdam,Netherlands,2,355,66
+102,Case Western Reserve University,USA,54,44,208
+103,University of Alberta,Canada,4,163,144
+104,University of Texas MD Anderson Cancer Center,USA,55,355,478
+105,Texas A&M University College Station,USA,56,328,94
+106,Arizona State University,USA,57,355,478
+107,Yonsei University,South Korea,2,355,61
+108,Rice University,USA,58,54,313
+109,Technion ‰ÛÒ Israel Institute of Technology,Israel,4,41,221
+110,University of Helsinki,Finland,1,53,478
+111,University of Oslo,Norway,1,139,266
+112,Michigan State University,USA,59,112,214
+113,Indiana University - Bloomington,USA,60,211,38
+114,University of the Witwatersrand,South Africa,1,79,29
+115,University of Queensland,Australia,3,265,295
+116,Lund University,Sweden,3,132,478
+117,Leiden University,Netherlands,3,107,478
+118,Georgetown University,USA,61,146,37
+119,Aarhus University,Denmark,2,292,188
+120,University of Barcelona,Spain,1,355,207
+121,Baylor College of Medicine,USA,62,355,478
+122,University of Amsterdam,Netherlands,4,182,438
+123,University of Bristol,United Kingdom,8,177,242
+124,Uppsala University,Sweden,4,62,336
+125,University of Iowa,USA,63,223,184
+126,Stony Brook University,USA,64,170,478
+127,University of Groningen,Netherlands,5,293,265
+128,Korea Advanced Institute of Science and Technology (KAIST),South Korea,3,355,85
+129,Radboud University Nijmegen,Netherlands,6,118,155
+130,Korea University,South Korea,4,355,58
+131,University of SÌ£o Paulo,Brazil,1,302,70
+132,Nagoya University,Japan,9,67,356
+133,University of Colorado Denver,USA,65,355,478
+134,University of Montreal,Canada,5,309,460
+135,Albert Ludwig University of Freiburg,Germany,5,137,113
+136,Ghent University,Belgium,2,115,282
+137,University of Glasgow,United Kingdom,9,219,112
+138,University of Miami,USA,66,355,152
+139,UniversitÌ© libre de Bruxelles,Belgium,3,165,167
+140,Paris Diderot University - Paris 7,France,5,117,478
+141,McMaster University,Canada,6,210,271
+142,University of Birmingham,United Kingdom,10,58,119
+143,University of Texas at Dallas,USA,67,355,244
+144,VU University Amsterdam,Netherlands,7,355,398
+145,Wake Forest University,USA,68,242,59
+146,University of Southampton,United Kingdom,11,315,81
+147,University of Nottingham,United Kingdom,12,128,148
+148,Nanyang Technological University,Singapore,2,355,478
+149,University of New South Wales,Australia,4,172,114
+150,Osaka City University,Japan,10,19,320
+151,University of Leeds,United Kingdom,13,84,93
+152,Western University (The University of Western Ontario),Canada,7,355,49
+153,Kobe University,Japan,11,22,362
+154,University of Basel,Switzerland,5,77,222
+155,University of Hong Kong,Hong Kong,1,272,116
+156,Indiana University-Purdue University Indianapolis,USA,69,355,424
+157,Humboldt University of Berlin,Germany,6,275,478
+158,Free University of Berlin,Germany,7,94,478
+159,University of TÌ_bingen,Germany,8,64,478
+160,Australian National University,Australia,5,186,377
+161,Goethe University Frankfurt,Germany,9,105,291
+162,University of Houston,USA,70,355,40
+163,University of California Santa Cruz,USA,71,160,478
+164,University of Alabama at Birmingham,USA,72,355,478
+165,Icahn School of Medicine at Mount Sinai,USA,73,355,478
+166,University of Calgary,Canada,8,355,89
+167,Mines ParisTech,France,6,249,31
+168,University of Gothenburg,Sweden,5,248,321
+169,University of GÌ_ttingen,Germany,10,39,174
+170,Monash University,Australia,6,277,134
+171,Southern Methodist University,USA,74,157,34
+172,Yeshiva University,USA,75,174,478
+173,University of South Florida - Tampa,USA,76,355,284
+174,Hanyang University,South Korea,5,355,69
+175,Oregon Health & Science University,USA,77,355,478
+176,University of Strasbourg,France,7,59,478
+177,University of Cincinnati,USA,78,305,132
+178,University of Sheffield,United Kingdom,14,131,257
+179,University of Hamburg,Germany,11,304,146
+180,George Washington University,USA,79,176,53
+181,University of Milan,Italy,2,162,467
+182,Iowa State University,USA,80,273,190
+183,University of Maryland Baltimore,USA,81,355,478
+184,University of Padua,Italy,3,278,478
+185,University of New Mexico,USA,82,355,478
+186,Pohang University of Science and Technology,South Korea,6,355,478
+187,Stockholm University,Sweden,6,184,106
+188,Hokkaido University,Japan,12,260,378
+189,Fudan University,China,3,355,126
+190,University of Sussex,United Kingdom,15,138,218
+191,UniversitÌ© catholique de Louvain,Belgium,4,355,269
+192,Wayne State University,USA,83,355,186
+193,University of Massachusetts Medical School,USA,84,355,478
+194,University of Lausanne,Switzerland,6,95,338
+195,Shanghai Jiao Tong University,China,4,325,149
+196,University of Missouri‰ÛÒColumbia,USA,85,243,96
+197,Technical University of Denmark,Denmark,3,339,478
+198,Complutense University of Madrid,Spain,2,86,55
+199,University of Cologne,Germany,12,355,109
+200,Trinity College Dublin,Ireland,1,319,68
+201,University of Bern,Switzerland,7,166,478
+202,Chinese University of Hong Kong,Hong Kong,2,90,478
+203,University of Kansas,USA,86,216,83
+204,Sungkyunkwan University,South Korea,7,355,191
+205,University of Vienna,Austria,1,200,160
+206,Zhejiang University,China,5,355,293
+207,University of Georgia,USA,87,104,193
+208,University of Massachusetts Amherst,USA,88,199,118
+209,Cardiff University,United Kingdom,16,306,183
+210,University of MÌ_nster,Germany,13,114,456
+211,University of Liverpool,United Kingdom,17,159,248
+212,University of Ottawa,Canada,9,355,287
+213,University of Erlangen-Nuremberg,Germany,14,222,478
+214,Queen Mary University of London,United Kingdom,18,133,348
+215,Karlsruhe Institute of Technology,Germany,15,343,170
+216,Louisiana State University - Baton Rouge,USA,89,256,179
+217,Nanjing University,China,6,331,447
+218,University of Illinois at Chicago,USA,90,355,416
+219,University of Bologna,Italy,4,342,319
+220,University of Manitoba,Canada,10,149,84
+221,Joseph Fourier University,France,8,181,478
+222,University of California Riverside,USA,91,228,478
+223,Julius-Maximilian's University of WÌ_rzburg,Germany,16,100,407
+224,Aix-Marseille University,France,9,220,472
+225,University of Western Australia,Australia,7,145,397
+226,Laval University,Canada,11,285,296
+227,University of Tennessee Knoxville,USA,92,300,117
+228,North Carolina State University,USA,93,245,194
+229,Newcastle University,United Kingdom,19,355,250
+230,Claude Bernard University Lyon 1,France,10,355,478
+231,University of Turin,Italy,5,311,471
+232,University of Kiel,Germany,17,180,396
+233,University of Connecticut,USA,94,282,402
+234,Tulane University,USA,95,298,92
+235,University of Oklahoma - Norman Campus,USA,96,355,124
+236,Brandeis University,USA,97,49,311
+237,Dresden University of Technology,Germany,18,355,478
+238,RWTH Aachen University,Germany,19,346,286
+239,University of Texas Health Science Center at San Antonio,USA,98,355,478
+240,Virginia Commonwealth University,USA,99,355,428
+241,University of Montpellier 2,France,11,355,358
+242,Dalian University of Technology,China,7,355,67
+243,Rensselaer Polytechnic Institute,USA,100,120,121
+244,Paul Sabatier University - Toulouse III,France,12,355,478
+245,Paris Descartes University,France,13,202,478
+246,National Cheng Kung University,Taiwan,2,355,60
+247,University of Delaware,USA,101,297,386
+248,Vrije Universiteit Brussel,Belgium,5,73,478
+249,Johannes Gutenberg University of Mainz,Germany,20,355,478
+250,Maastricht University,Netherlands,8,355,478
+251,University of DÌ_sseldorf,Germany,21,168,478
+252,University of Dundee,United Kingdom,20,164,478
+253,University of Tsukuba,Japan,13,183,478
+254,Autonomous University of Barcelona,Spain,3,355,478
+255,Florida State University,USA,102,355,288
+256,University of Texas at San Antonio,USA,103,355,478
+257,London School of Hygiene & Tropical Medicine,United Kingdom,21,355,478
+258,Lehigh University,USA,104,355,44
+259,University of Kentucky,USA,105,317,270
+260,Thomas Jefferson University,USA,106,134,478
+261,Drexel University,USA,107,355,262
+262,Colorado State University - Fort Collins,USA,108,203,478
+263,University of Leicester,United Kingdom,22,355,478
+264,Durham University,United Kingdom,23,122,237
+265,Oregon State University,USA,109,175,268
+266,University of Florence,Italy,6,316,304
+267,University of Cape Town,South Africa,2,97,169
+268,University at Buffalo The State University of New York,USA,110,355,418
+269,University College Dublin,Ireland,2,227,182
+270,University of Science and Technology of China,China,8,355,238
+271,Virginia Polytechnic Institute and State University,USA,111,270,185
+272,University of Naples Federico II,Italy,7,324,475
+273,University of Auckland,New Zealand,1,230,455
+274,University of Texas Health Science Center at Houston,USA,112,355,478
+275,Delft University of Technology,Netherlands,9,289,374
+276,University of Aberdeen,United Kingdom,24,347,223
+277,Queen's University,Canada,12,301,172
+278,University of Lisbon,Portugal,1,327,478
+279,Hiroshima University,Japan,14,355,478
+280,University of Waterloo,Canada,13,355,125
+281,Okayama University,Japan,15,355,226
+282,University of Ulm,Germany,22,355,478
+283,Chulalongkorn University,Thailand,1,355,51
+284,Dalhousie University,Canada,14,355,153
+285,Saint Petersburg State University,Russia,2,37,129
+286,Norwegian University of Science and Technology,Norway,2,231,163
+287,University of Reading,United Kingdom,25,241,78
+288,Wageningen University and Research Centre,Netherlands,10,267,478
+289,UmeÌ´ University,Sweden,7,355,478
+290,University of Porto,Portugal,2,83,427
+291,Hong Kong University of Science and Technology,Hong Kong,3,355,279
+292,Sun Yat-sen University,China,9,355,328
+293,Medical College of Wisconsin,USA,113,355,478
+294,City College of New York,USA,114,35,236
+295,Hannover Medical School,Germany,23,355,478
+296,Washington State University Pullman,USA,115,355,267
+297,Technical University of Berlin,Germany,24,80,276
+298,University of South Carolina - Columbia,USA,116,355,440
+299,Leipzig University,Germany,25,308,478
+300,University of Stuttgart,Germany,26,78,175
+301,University of Valencia,Spain,4,355,464
+302,LinkÌ_ping University,Sweden,8,355,177
+303,University of Duisburg-Essen,Germany,27,355,453
+304,Ruhr University Bochum,Germany,28,355,283
+305,University of Bergen,Norway,3,355,478
+306,London School of Economics,United Kingdom,26,70,139
+307,Wesleyan University,USA,117,130,54
+308,University of Pisa,Italy,8,268,465
+309,Autonomous University of Madrid,Spain,5,355,449
+310,Medical University of Vienna,Austria,2,355,478
+311,Stellenbosch University,South Africa,3,355,64
+312,Medical University of South Carolina,USA,118,355,478
+313,Charles University in Prague,Czech Republic,1,337,478
+314,Kyungpook National University,South Korea,8,355,446
+315,University of Science Malaysia,Malaysia,1,355,478
+316,University of LiÌ¬ge,Belgium,6,135,478
+317,University of Hull,United Kingdom,27,287,253
+318,Northeastern University,USA,119,295,171
+319,Kansas State University,USA,120,116,165
+320,University of Vermont,USA,121,178,215
+321,Rush University,USA,122,355,478
+322,University of Louisville,USA,123,355,389
+323,University of St Andrews,United Kingdom,28,125,478
+324,University of Warwick,United Kingdom,29,198,394
+325,University of Rome Tor Vergata,Italy,9,355,478
+326,University of Innsbruck,Austria,3,190,415
+327,Darmstadt University of Technology,Germany,29,55,258
+328,Indian Institute of Technology Delhi,India,1,355,57
+329,Federal University of Rio de Janeiro,Brazil,2,261,120
+330,University of Antwerp,Belgium,7,355,478
+331,National and Kapodistrian University of Athens,Greece,1,355,246
+332,Boston College,USA,124,355,95
+333,Vita-Salute San Raffaele University,Italy,10,355,478
+334,Gwangju Institute of Science and Technology,South Korea,9,355,478
+335,University of Nebraska‰ÛÒLincoln,USA,125,154,256
+336,University of York,United Kingdom,30,355,478
+337,National Autonomous University of Mexico,Mexico,1,299,478
+338,University of Regensburg,Germany,30,355,382
+339,Yokohama National University,Japan,16,52,135
+340,University of Adelaide,Australia,8,201,400
+341,University of Genoa,Italy,11,355,478
+342,Queen's University Belfast,United Kingdom,31,169,399
+343,University of Marburg,Germany,31,290,478
+344,University of Pavia,Italy,12,276,385
+345,St George's University of London,United Kingdom,32,355,478
+346,University of Oregon,USA,126,334,478
+347,University of Navarra,Spain,6,355,72
+348,San Diego State University,USA,127,240,187
+349,Nankai University,China,10,318,168
+350,University of East Anglia,United Kingdom,33,187,478
+351,University of Nebraska Medical Center,USA,128,355,478
+352,University of Southern Denmark,Denmark,4,355,478
+353,Eindhoven University of Technology,Netherlands,11,355,315
+354,Xiamen University,China,11,355,100
+355,University of Otago,New Zealand,2,355,372
+356,University of Santiago de Compostela,Spain,7,355,478
+357,University of Exeter,United Kingdom,34,250,371
+358,University of Jena,Germany,32,355,478
+359,University of Perugia,Italy,13,355,478
+360,Justus Liebig University Giessen,Germany,33,355,478
+361,College of William and Mary,USA,129,355,82
+362,Ben-Gurion University of the Negev,Israel,5,355,478
+363,Saint Louis University,USA,130,355,342
+364,Colorado School of Mines,USA,131,355,76
+365,Oklahoma State University‰ÛÒStillwater,USA,132,221,111
+366,University of Guelph,Canada,15,355,478
+367,University of Trieste,Italy,14,355,478
+368,University of Verona,Italy,15,355,478
+369,University at Albany SUNY,USA,133,161,478
+370,Tongji University,China,12,152,102
+371,EÌ_tvÌ_s LorÌÁnd University,Hungary,1,87,478
+372,University of Alabama - Tuscaloosa,USA,134,312,137
+373,University of Eastern Finland,Finland,2,355,478
+374,Ewha Womans University,South Korea,10,355,478
+375,City University of Hong Kong,Hong Kong,4,355,478
+376,Tokyo Medical and Dental University,Japan,17,355,478
+377,University of Victoria,Canada,16,355,478
+378,University of Buenos Aires,Argentina,1,192,477
+379,University of Texas Medical Branch at Galveston,USA,135,355,478
+380,Kyung Hee University,South Korea,11,239,445
+381,Hong Kong Polytechnic University,Hong Kong,5,355,189
+382,Saarland University,Germany,34,355,370
+383,Scuola Normale Superiore di Pisa,Italy,16,229,478
+384,University of Seville,Spain,8,355,478
+385,Beijing Normal University,China,13,51,478
+386,Chiba University,Japan,18,355,478
+387,University of Ferrara,Italy,17,355,478
+388,University of Bari Aldo Moro,Italy,18,355,478
+389,Polytechnic University of Milan,Italy,19,101,203
+390,Temple University,USA,136,262,478
+391,University of Turku,Finland,3,355,478
+392,Aalto University,Finland,4,355,251
+393,Simon Fraser University,Canada,17,355,478
+394,Tianjin University,China,14,355,87
+395,Chalmers University of Technology,Sweden,9,349,332
+396,Middle East Technical University,Turkey,1,355,79
+397,Cranfield University,United Kingdom,35,355,71
+398,York University,Canada,18,355,164
+399,Xi'an Jiaotong University,China,15,355,127
+400,Chonnam National University,South Korea,12,355,478
+401,University of Central Florida,USA,137,355,468
+402,University of Lorraine,France,14,213,301
+403,University of Bordeaux II,France,15,355,478
+404,University of New Hampshire,USA,138,355,346
+405,Versailles Saint-Quentin-en-Yvelines University,France,16,355,478
+406,Chonbuk National University,South Korea,13,355,478
+407,Kumamoto University,Japan,19,279,325
+408,Huazhong University of Science and Technology,China,16,355,232
+409,Brunel University,United Kingdom,36,355,147
+410,Polytechnic University of Catalonia,Spain,9,355,451
+411,National Chiao Tung University,Taiwan,3,355,220
+412,Southeast University,China,17,158,409
+413,Tokyo University of Science,Japan,20,355,478
+414,Catholic University of the Sacred Heart,Italy,20,355,478
+415,Brigham Young University,USA,139,288,444
+416,Technical University of Madrid,Spain,10,206,200
+417,Nagasaki University,Japan,21,274,128
+418,National Tsing Hua University,Taiwan,4,244,478
+419,University of Warsaw,Poland,1,119,478
+420,King Saud University,Saudi Arabia,1,355,133
+421,University of Bath,United Kingdom,37,355,352
+422,Concordia University,Canada,19,355,110
+423,Georgia Regents University,USA,140,355,478
+424,Niigata University,Japan,22,355,217
+425,University of Oulu,Finland,5,253,354
+426,Pompeu Fabra University,Spain,11,355,478
+427,Vienna University of Technology,Austria,4,351,413
+428,Sogang University,South Korea,14,355,478
+429,Gyeongsang National University,South Korea,15,355,478
+430,University of Tampere,Finland,6,355,235
+431,University of Milan - Bicocca,Italy,21,355,478
+432,University of Bordeaux I,France,17,355,478
+433,Swedish University of Agricultural Sciences,Sweden,10,355,478
+434,George Mason University,USA,141,355,478
+435,Jilin University,China,18,224,469
+436,University of Delhi,India,2,263,88
+437,University of Campinas,Brazil,3,355,478
+438,Wuhan University,China,19,355,228
+439,West Virginia University,USA,142,314,180
+440,Pusan National University,South Korea,16,355,422
+441,University of Mississippi - Oxford Campus,USA,143,355,478
+442,University of Arkansas for Medical Sciences,USA,144,355,478
+443,Miami University,USA,145,355,104
+444,University of Tokushima,Japan,23,109,478
+445,University of Twente,Netherlands,12,355,478
+446,Loyola University Chicago,USA,146,355,350
+447,Ajou University,South Korea,17,355,343
+448,Syracuse University,USA,147,129,249
+449,Lancaster University,United Kingdom,38,355,339
+450,Pontifical Catholic University of Chile,Chile,1,330,263
+451,University of Chile,Chile,2,232,278
+452,Innsbruck Medical University,Austria,5,355,478
+453,University of Granada,Spain,12,355,478
+454,Kanazawa University,Japan,24,355,327
+455,University of Parma,Italy,22,355,431
+456,University of Siena,Italy,23,355,478
+457,Shandong University,China,20,355,466
+458,Technical University of Dortmund,Germany,35,355,478
+459,University of KwaZulu-Natal,South Africa,4,355,142
+460,University of Nevada Reno,USA,148,355,347
+461,Yokohama City University,Japan,25,355,196
+462,Ìäcole normale supÌ©rieure de Lyon,France,18,355,478
+463,University College Cork,Ireland,3,355,359
+464,Ohio University,USA,149,196,176
+465,Central South University,China,21,355,162
+466,University of Modena and Reggio Emilia,Italy,24,355,478
+467,New Mexico State University,USA,150,355,369
+468,University of Konstanz,Germany,36,355,478
+469,University of Hawaii at Manoa,USA,151,355,379
+470,University of Nebraska Omaha,USA,152,355,349
+471,Shinshu University,Japan,26,355,333
+472,University of Strathclyde,United Kingdom,39,355,245
+473,Baylor University,USA,153,355,351
+474,Polytechnic University of Valencia,Spain,13,355,478
+475,Harbin Institute of Technology,China,22,355,289
+476,University of Rennes 1,France,19,355,478
+477,University of Arkansas - Fayetteville,USA,154,189,260
+478,Aristotle University of Thessaloniki,Greece,2,355,478
+479,Jagiellonian University,Poland,2,355,478
+480,Texas Tech University (TTU),USA,155,355,277
+481,University of Rostock,Germany,37,352,478
+482,University of Akron,USA,156,355,421
+483,University of Saskatchewan,Canada,20,320,380
+484,Juntendo University,Japan,27,355,478
+485,University of Wyoming,USA,157,355,224
+486,Macquarie University,Australia,9,355,452
+487,University of Canterbury,New Zealand,3,173,154
+488,University of Denver,USA,158,283,141
+489,Illinois Institute of Technology,USA,159,251,123
+490,Creighton University,USA,160,355,478
+491,Bielefeld University,Germany,38,355,478
+492,University of Malaya,Malaysia,2,355,115
+493,University of Ulsan,South Korea,18,355,247
+494,City University London,United Kingdom,40,355,103
+495,Grenoble Institute of Technology,France,20,355,478
+496,Federal University of Minas Gerais,Brazil,4,355,462
+497,University of Hanover,Germany,39,355,392
+498,South China University of Technology,China,23,355,292
+499,University of Surrey,United Kingdom,41,195,234
+500,Otto-von-Guericke University Magdeburg,Germany,40,355,478
+501,Indian Institute of Science,India,3,355,478
+502,Tokyo Metropolitan University,Japan,28,355,322
+503,Bar-Ilan University,Israel,6,266,408
+504,Mississippi State University,USA,161,141,157
+505,University of Maryland Baltimore County,USA,162,355,478
+506,University of Wollongong,Australia,10,355,274
+507,Flinders University,Australia,11,82,478
+508,Martin Luther University of Halle-Wittenberg,Germany,41,345,478
+509,Graduate University for Advanced Studies,Japan,29,355,478
+510,Clemson University,USA,163,355,478
+511,University of Brescia,Italy,25,355,478
+512,Georgia State University,USA,164,355,434
+513,Dongguk University,South Korea,19,355,395
+514,University of Fribourg,Switzerland,8,208,209
+515,Sichuan University,China,24,355,478
+516,University of Iceland,Iceland,1,355,478
+517,University of Sherbrooke,Canada,21,355,478
+518,University of Graz,Austria,6,338,429
+519,University of MÌÁlaga,Spain,14,355,478
+520,University of Zaragoza,Spain,15,354,441
+521,New York Medical College,USA,165,355,478
+522,SUNY Downstate Medical Center,USA,166,355,478
+523,Ìäcole Centrale Paris,France,21,355,108
+524,Utah State University,USA,167,156,419
+525,University of Ljubljana,Slovenia,1,355,478
+526,University of Montpellier 1,France,22,355,478
+527,Victoria University of Wellington,New Zealand,4,296,161
+528,East China University of Science and Technology,China,25,355,478
+529,Konkuk University,South Korea,20,355,403
+530,University of Potsdam,Germany,42,355,478
+531,University of the Basque Country,Spain,16,355,478
+532,University of Nice Sophia Antipolis,France,23,252,478
+533,University of Udine,Italy,26,355,478
+534,National Yang-Ming University,Taiwan,5,355,478
+535,Indian Institute of Technology Bombay,India,4,355,478
+536,University of Bayreuth,Germany,43,355,478
+537,University of Wisconsin‰ÛÒMilwaukee,USA,168,218,273
+538,University of Dayton,USA,169,335,140
+539,Nihon University,Japan,30,307,474
+540,Montana State University - Bozeman,USA,170,355,344
+541,Royal Holloway University of London,United Kingdom,42,355,478
+542,Tokyo Women's Medical University,Japan,31,355,478
+543,Panjab University,India,5,332,212
+544,Tampere University of Technology,Finland,7,355,136
+545,University of Coimbra,Portugal,3,348,478
+546,University of Newcastle,Australia,12,355,478
+547,Nara Institute of Science and Technology,Japan,32,355,478
+548,Auburn University,USA,171,355,261
+549,University of Bremen,Germany,44,355,478
+550,Mahidol University,Thailand,2,355,478
+551,University of Crete,Greece,3,355,478
+552,Bangor University,United Kingdom,43,246,360
+553,University of Aveiro,Portugal,4,355,478
+554,University of Palermo,Italy,27,355,478
+555,Nagoya City University,Japan,33,355,306
+556,University of Tartu,Estonia,1,353,478
+557,University of Savoy,France,24,355,478
+558,University of TromsÌü - The Arctic University of Norway,Norway,4,355,478
+559,University of Missouri‰ÛÒKansas City,USA,172,286,357
+560,Beihang University,China,26,355,254
+561,American University of Beirut,Lebanon,1,103,205
+562,University of Nantes,France,25,355,478
+563,University of Essex,United Kingdom,44,106,335
+564,University of Zagreb,Croatia,1,355,478
+565,National Central University,Taiwan,6,204,478
+566,University Lille 1: Sciences and Technologies,France,26,355,478
+567,University of Catania,Italy,28,355,478
+568,National Polytechnic Institute of Toulouse,France,27,355,201
+569,Indian Institute of Technology Kanpur,India,6,153,308
+570,Kagoshima University,Japan,34,355,211
+571,Lanzhou University,China,27,355,478
+572,James Cook University,Australia,13,355,478
+573,Shizuoka University,Japan,35,355,478
+574,Indian Institute of Technology Kharagpur,India,7,355,201
+575,Second University of Naples,Italy,29,355,478
+576,Indian Institute of Technology Madras,India,8,355,206
+577,Plymouth University,United Kingdom,45,355,437
+578,International School for Advanced Studies,Italy,30,355,478
+579,Polytechnic University of Turin,Italy,31,355,478
+580,University of Oviedo,Spain,17,355,478
+581,Ehime University,Japan,36,355,324
+582,University of Ioannina,Greece,4,355,478
+583,University of Cagliari,Italy,32,355,478
+584,Tottori University,Japan,37,355,199
+585,Federal University of Rio Grande do Sul,Brazil,5,355,478
+586,Kent State University,USA,173,355,478
+587,University of Los Andes (Colombia),Colombia,1,355,150
+588,Hunan University,China,28,355,294
+589,Tokai University,Japan,38,355,478
+590,LSU Health Sciences Center New Orleans,USA,174,355,478
+591,Southern Illinois University Carbondale,USA,175,191,478
+592,Tata Institute of Fundamental Research,India,9,355,478
+593,Aalborg University,Denmark,5,355,384
+594,Osaka Prefecture University,Japan,39,355,316
+595,Chang Gung University,Taiwan,7,355,478
+596,Northern Illinois University,USA,176,355,259
+597,University of Trento,Italy,33,355,478
+598,Semmelweis University,Hungary,2,355,478
+599,University of Science and Technology Beijing,China,29,355,166
+600,National University of Ireland Galway,Ireland,4,355,478
+601,Dankook University,South Korea,21,355,478
+602,Istanbul University,Turkey,2,255,337
+603,Tokyo University of Agriculture and Technology,Japan,40,355,478
+604,University of Montana - Missoula,USA,177,341,478
+605,Queensland University of Technology,Australia,14,355,478
+606,Binghamton University,USA,178,355,229
+607,UniversitÌ© de Namur,Belgium,8,143,312
+608,University of Tasmania,Australia,15,355,478
+609,University of Pretoria,South Africa,5,355,233
+610,Central China Normal University,China,30,355,478
+611,Indian Institute of Technology Roorkee,India,10,355,307
+612,Curtin University,Australia,16,355,478
+613,Deakin University,Australia,17,355,459
+614,Tilburg University,Netherlands,13,355,227
+615,Inha University,South Korea,22,355,387
+616,University of New Orleans,USA,179,355,478
+617,Paris-Est CrÌ©teil Val-de-Marne University,France,28,355,435
+618,University of L'Aquila,Italy,34,355,478
+619,Chungnam National University,South Korea,23,355,478
+620,University of Salamanca,Spain,18,355,423
+621,University of Alaska Fairbanks,USA,180,355,478
+622,University of Poitiers,France,29,236,478
+623,Albany Medical College,USA,181,142,478
+624,Birkbeck University of London,United Kingdom,46,281,478
+625,Griffith University,Australia,18,355,478
+626,Federal University of SÌ£o Paulo,Brazil,6,355,478
+627,Carleton University,Canada,22,355,478
+628,Massey University,New Zealand,5,355,448
+629,Catholic University of Korea,South Korea,24,355,478
+630,Open University (UK),United Kingdom,47,355,478
+631,University of Patras,Greece,5,355,478
+632,Universidade Nova de Lisboa,Portugal,5,355,478
+633,Texas A&M Health Science Center,USA,182,355,478
+634,Braunschweig University of Technology,Germany,45,207,478
+635,National Chung Hsing University,Taiwan,8,355,364
+636,La Trobe University,Australia,19,355,439
+637,Missouri University of Science and Technology,USA,183,355,204
+638,University of Idaho,USA,184,355,478
+639,Louisiana Tech University,USA,185,355,213
+640,University of Portsmouth,United Kingdom,48,355,478
+641,University of La Laguna,Spain,19,355,478
+642,Florida International University,USA,186,355,478
+643,Medical University of Graz,Austria,7,355,478
+644,Howard University,USA,187,269,478
+645,University of Hertfordshire,United Kingdom,49,355,478
+646,State University of New York Upstate Medical University,USA,188,355,478
+647,Royal College of Surgeons in Ireland,Ireland,5,355,478
+648,National Technical University of Athens,Greece,6,167,478
+649,University of Windsor,Canada,23,355,239
+650,Rovira i Virgili University,Spain,20,355,478
+651,University of Burgundy,France,30,214,478
+652,Gunma University,Japan,41,355,478
+653,AGH University of Science and Technology,Poland,3,257,197
+654,Gifu University,Japan,42,355,478
+655,Hacettepe University,Turkey,3,355,478
+656,Ì_rebro University,Sweden,11,355,478
+657,Memorial University of Newfoundland,Canada,24,355,478
+658,Kindai University,Japan,43,355,478
+659,University of Rhode Island,USA,189,355,353
+660,University of Alicante,Spain,21,355,478
+661,New Jersey Institute of Technology,USA,190,235,326
+662,Lille 2 University of Health and Law,France,31,355,478
+663,Keele University,United Kingdom,50,355,478
+664,University of JyvÌ_skylÌ_,Finland,8,355,478
+665,Rochester Institute of Technology,USA,191,355,366
+666,Sapporo Medical University,Japan,44,355,478
+667,Banaras Hindu University,India,11,237,285
+668,King Abdullah University of Science and Technology,Saudi Arabia,2,355,478
+669,Northeast Normal University,China,31,355,478
+670,Portland State University,USA,192,355,272
+671,University of QuÌ©bec at Montreal,Canada,25,355,457
+672,East China Normal University,China,32,355,431
+673,University of Debrecen,Hungary,3,355,478
+674,Loma Linda University,USA,193,355,478
+675,Old Dominion University,USA,194,355,478
+676,University of Insubria,Italy,35,355,478
+677,University of Nevada Las Vegas,USA,195,355,412
+678,Hong Kong Baptist University,Hong Kong,6,355,478
+679,University of Minho,Portugal,6,355,478
+680,University of Messina,Italy,36,355,478
+681,University of Texas at Arlington,USA,196,355,478
+682,University FranÌ_ois Rabelais Tours,France,32,188,478
+683,UNESP SÌ£o Paulo State University,Brazil,7,355,478
+684,Toho University,Japan,45,355,478
+685,Beijing University of Chemical Technology,China,33,355,405
+686,Rutgers The State University of New Jersey - Newark,USA,197,355,478
+687,Johannes Kepler University of Linz,Austria,8,355,373
+688,Warsaw University of Technology,Poland,4,333,478
+689,University of Paris 13,France,33,355,478
+690,University of Toyama,Japan,46,355,323
+691,University of Toledo,USA,198,355,478
+692,University of Vigo,Spain,22,355,478
+693,University of Kent,United Kingdom,51,355,375
+694,Jichi Medical University,Japan,47,355,478
+695,Roma Tre University,Italy,37,355,478
+696,Chung Yuan Christian University,Taiwan,9,225,230
+697,University of Haifa,Israel,7,355,363
+698,ÌÉbo Akademi University,Finland,9,355,478
+699,Swansea University,United Kingdom,52,355,355
+700,China Agricultural University,China,34,355,478
+701,Marche Polytechnic University,Italy,38,355,478
+702,University of Maine Orono,USA,199,329,478
+703,Heriot-Watt University,United Kingdom,53,355,381
+704,Marquette University,USA,200,355,216
+705,Loughborough University,United Kingdom,54,355,478
+706,Kaiserslautern University of Technology,Germany,46,355,478
+707,Aston University,United Kingdom,55,355,331
+708,University of Girona,Spain,23,355,478
+709,Hasselt University,Belgium,9,355,309
+710,Nanjing University of Science and Technology,China,35,355,243
+711,University of Natural Resources and Life Sciences Vienna,Austria,9,355,478
+712,University of Szeged,Hungary,4,355,478
+713,Soochow University (Suzhou),China,36,355,478
+714,University of the Balearic Islands,Spain,24,355,478
+715,Fuzhou University,China,37,355,420
+716,University of Memphis,USA,201,355,390
+717,San Francisco State University,USA,202,258,478
+718,East Carolina University,USA,203,355,411
+719,University of Augsburg,Germany,47,355,478
+720,University of Missouri‰ÛÒSt. Louis,USA,204,355,361
+721,Kyoto Prefectural University of Medicine,Japan,48,355,478
+722,Shanghai University,China,38,355,478
+723,University of South Australia,Australia,20,355,280
+724,Liverpool John Moores University,United Kingdom,56,355,478
+725,Graz University of Technology,Austria,10,355,478
+726,Kitasato University,Japan,49,355,478
+727,University of North Carolina at Charlotte,USA,205,355,264
+728,G. d'Annunzio University Chieti-Pescara,Italy,39,355,478
+729,University of Cantabria,Spain,25,355,478
+730,Miguel HernÌÁndez University of Elche,Spain,26,355,478
+731,Donghua University,China,39,355,478
+732,Comenius University in Bratislava,Slovak Republic,1,355,478
+733,University of Alabama in Huntsville,USA,206,355,478
+734,Mie University,Japan,50,355,478
+735,University of Stirling,United Kingdom,57,355,334
+736,Hunter College,USA,207,247,383
+737,Swinburne University of Technology,Australia,21,355,478
+738,University of Ulster,United Kingdom,58,355,478
+739,University of Ìävry Val d'Essonne,France,34,355,478
+740,University of Salerno,Italy,40,355,478
+741,National University of La Plata,Argentina,2,355,476
+742,Masaryk University,Czech Republic,2,355,478
+743,Yamaguchi University,Japan,51,355,478
+744,University of Yamanashi,Japan,52,355,478
+745,Showa University,Japan,53,355,478
+746,North Dakota State University - Main Campus,USA,208,155,478
+747,University of North Texas Denton,USA,209,355,478
+748,University of Mississippi Medical Center,USA,210,355,478
+749,University of Tehran,Iran,1,171,478
+750,Paul ValÌ©ry University Montpellier III,France,35,355,478
+751,Wuhan University of Technology,China,40,355,478
+752,University of Hyogo,Japan,54,355,478
+753,The Catholic University of America,USA,211,355,314
+754,University of NeuchÌ¢tel,Switzerland,9,340,478
+755,National Polytechnic Institute,Mexico,2,322,478
+756,Jikei University School of Medicine,Japan,55,355,478
+757,University of Valladolid,Spain,27,355,430
+758,University of Calabria,Italy,41,355,478
+759,University of LÌ_beck,Germany,48,355,478
+760,Kurume University,Japan,56,355,478
+761,Peking Union Medical College,China,41,355,478
+762,Yamagata University,Japan,57,355,478
+763,University of CÌ_rdoba (Spain),Spain,28,355,478
+764,University of Mons,Belgium,10,355,478
+765,Saga University,Japan,58,355,478
+766,Clarkson University,USA,212,355,305
+767,University of South Alabama,USA,213,355,478
+768,Inje University,South Korea,25,355,478
+769,University of Caen Lower Normandy,France,36,193,478
+770,University of Castilla‰ÛÒLa Mancha,Spain,29,355,478
+771,Czech Technical University in Prague,Czech Republic,3,336,478
+772,Saitama Medical University,Japan,59,355,478
+773,Istanbul Technical University,Turkey,4,355,388
+774,Kaohsiung Medical University,Taiwan,10,355,478
+775,University of Electro-Communications,Japan,60,140,478
+776,Yeungnam University,South Korea,26,355,454
+777,Jawaharlal Nehru Centre for Advanced Scientific Research,India,12,355,478
+778,Putra University Malaysia,Malaysia,3,355,478
+779,Institut national des sciences AppliquÌ©es de Lyon,France,37,355,478
+780,University of Perpignan Via Domitia,France,38,144,478
+781,University of Miyazaki,Japan,61,259,478
+782,Second Military Medical University,China,42,355,478
+783,Northern Arizona University,USA,214,355,478
+784,Ìäcole Polytechnique de MontrÌ©al,Canada,26,355,478
+785,University of Salento,Italy,42,355,478
+786,Fukuoka University,Japan,62,355,478
+787,Nagoya Institute of Technology,Japan,63,355,310
+788,Ankara University,Turkey,5,355,461
+789,Blaise Pascal University,France,39,355,478
+790,University of Electronic Science and Technology of China,China,43,355,400
+791,National Sun Yat-sen University,Taiwan,11,355,478
+792,University of Rouen,France,40,350,478
+793,Bowling Green State University,USA,215,355,365
+794,Norwegian University of Life Sciences,Norway,5,355,478
+795,University of Picardie Jules Verne,France,41,355,478
+796,Michigan Technological University,USA,216,323,478
+797,University of ConcepciÌ_n,Chile,3,355,478
+798,China Medical University (Taiwan),Taiwan,12,355,478
+799,University of Hohenheim,Germany,49,355,478
+800,Aberystwyth University,United Kingdom,59,355,478
+801,Wilfrid Laurier University,Canada,27,355,240
+802,Cairo University,Egypt,1,310,473
+803,University of Murcia,Spain,30,355,478
+804,PalackÌ_ University Olomouc,Czech Republic,4,355,478
+805,Taipei Medical University,Taiwan,13,355,478
+806,University of Bradford,United Kingdom,60,355,341
+807,King Fahd University of Petroleum and Minerals,Saudi Arabia,3,355,230
+808,Ege University,Turkey,6,355,478
+809,University of Belgrade,Serbia,1,280,478
+810,"University of Eastern Piedmont Amedeo Avogadro""""",Italy,43,355,478
+811,Budapest University of Technology and Economics,Hungary,5,238,478
+812,University of Salzburg,Austria,11,355,367
+813,University of Massachusetts Lowell,USA,217,355,478
+814,Jaume I University,Spain,31,355,478
+815,Chongqing University,China,44,355,302
+816,Beijing Institute of Technology,China,45,355,478
+817,Manchester Metropolitan University,United Kingdom,61,355,442
+818,Zhengzhou University,China,46,355,463
+819,Dublin City University,Ireland,6,355,478
+820,National University of Ireland Maynooth,Ireland,7,215,478
+821,Kangwon National University,South Korea,27,355,478
+822,Royal Veterinary College University of London,United Kingdom,62,205,478
+823,Wright State University - Dayton,USA,218,355,478
+824,Capital Medical University,China,47,355,478
+825,University of Brighton,United Kingdom,63,355,478
+826,Sofia University,Bulgaria,1,234,478
+827,University of Regina,Canada,28,355,478
+828,Magna GrÌ_cia University of Catanzaro,Italy,44,355,478
+829,Chungbuk National University,South Korea,28,355,478
+830,KÅçchi University,Japan,64,355,478
+831,University of New Brunswick,Canada,29,355,329
+832,Sejong University,South Korea,29,355,478
+833,Sharif University of Technology,Iran,2,355,478
+834,Chung-Ang University,South Korea,30,355,478
+835,Queens College City University of New York,USA,219,303,368
+836,Murdoch University,Australia,22,355,478
+837,Chosun University,South Korea,31,355,478
+838,Vilnius University,Lithuania,1,326,478
+839,University of Maribor,Slovenia,2,355,478
+840,Ritsumeikan University,Japan,65,355,281
+841,University of Sassari,Italy,45,355,478
+842,Nanjing Normal University,China,48,355,436
+843,University of Franche-ComtÌ©,France,42,284,478
+844,University of Texas at El Paso,USA,220,355,391
+845,Rio de Janeiro State University,Brazil,8,355,478
+846,Jinan University,China,49,355,290
+847,University of Massachusetts Boston,USA,221,355,478
+848,University of AlcalÌÁ,Spain,32,355,478
+849,Tehran University of Medical Sciences,Iran,3,355,478
+850,University of the Ryukyus,Japan,66,355,478
+851,University of Angers,France,43,355,478
+852,Fluminense Federal University,Brazil,9,355,300
+853,Florida Institute of Technology,USA,222,355,478
+854,Trent University,Canada,30,355,478
+855,National Chung Cheng University,Taiwan,14,355,478
+856,Bilkent University,Turkey,7,355,478
+857,National Taiwan Normal University,Taiwan,15,355,345
+858,Saitama University,Japan,67,355,318
+859,RMIT University,Australia,23,355,478
+860,Hamamatsu University School of Medicine,Japan,68,355,478
+861,University of Greifswald,Germany,50,355,478
+862,University of PÌ©cs,Hungary,6,355,478
+863,University of Fukui,Japan,69,355,478
+864,Oakland University,USA,223,355,478
+865,Nanjing University of Technology,China,50,355,478
+866,University of Technology Sydney,Australia,24,355,478
+867,University of North Carolina at Greensboro,USA,224,355,478
+868,All India Institute of Medical Sciences New Delhi,India,13,355,478
+869,Kyoto Institute of Technology,Japan,70,355,478
+870,Ocean University of China,China,51,355,478
+871,Chiang Mai University,Thailand,3,355,478
+872,University of Camerino,Italy,46,355,478
+873,Hirosaki University,Japan,71,355,478
+874,University of North Dakota,USA,225,355,478
+875,University of Extremadura,Spain,33,355,478
+876,Teikyo University,Japan,72,355,478
+877,Jiangnan University,China,52,355,478
+878,Adam Mickiewicz University in PoznaÅã,Poland,5,233,478
+879,University of Waikato,New Zealand,6,355,340
+880,University of Veterinary Medicine Vienna,Austria,12,355,478
+881,University of CÌÁdiz,Spain,34,355,478
+882,Florida Atlantic University,USA,226,355,478
+883,Huazhong Agricultural University,China,53,355,478
+884,Brock University,Canada,31,355,478
+885,University of Lleida,Spain,35,355,478
+886,Shanghai Normal University,China,54,355,458
+887,Jean Monnet University,France,44,355,478
+888,Shimane University,Japan,73,355,478
+889,University of OrlÌ©ans,France,45,355,478
+890,University of Siegen,Germany,51,355,478
+891,Makerere University,Uganda,1,355,478
+892,University of Wales Trinity Saint David,United Kingdom,64,355,478
+893,National Taiwan University of Science and Technology,Taiwan,16,355,478
+894,University of BrasÌ_lia,Brazil,10,355,450
+895,University of Western Brittany,France,46,355,478
+896,Nanjing Agricultural University,China,55,355,478
+897,National University of CÌ_rdoba,Argentina,3,355,478
+898,Federal University of Santa Catarina,Brazil,11,355,478
+899,National Taiwan Ocean University,Taiwan,17,355,317
+900,Gazi University,Turkey,8,355,478
+901,National University of Colombia,Colombia,2,355,297
+902,University of JaÌ©n,Spain,36,355,478
+903,Bo€ÙaziÌ_i University,Turkey,9,355,478
+904,Jadavpur University,India,14,355,478
+905,Pukyong National University,South Korea,32,355,478
+906,University of Western Sydney,Australia,25,355,478
+907,Northeastern University (China),China,56,355,425
+908,University of Mannheim,Germany,52,355,478
+909,University of OsnabrÌ_ck,Germany,53,355,478
+910,Charles Darwin University,Australia,26,355,478
+911,University of Hyderabad,India,15,355,478
+912,Northwest University (China),China,57,355,478
+913,University of Southern Mississippi,USA,227,355,478
+914,University of WrocÅâaw,Poland,6,344,478
+915,Carlos III University of Madrid,Spain,37,355,478
+916,Novosibirsk State University,Russia,3,147,478
+917,Nanjing Medical University,China,58,355,478
+918,Nicolaus Copernicus University in ToruÅã,Poland,7,355,478
+919,Federal University of Santa Maria,Brazil,12,355,414
+920,Chemnitz University of Technology,Germany,54,355,330
+921,Southwest University,China,59,264,478
+922,WrocÅâaw University of Technology,Poland,8,355,443
+923,University of California Merced,USA,228,355,478
+924,United Arab Emirates University,United Arab Emirates,1,355,478
+925,Federal University of SÌ£o Carlos,Brazil,13,355,478
+926,University of Thessaly,Greece,7,355,478
+927,University of Basilicata,Italy,47,355,478
+928,Feng Chia University,Taiwan,18,355,376
+929,Federal University of ParanÌÁ,Brazil,14,355,478
+930,University of AlmerÌ_a,Spain,38,355,478
+931,Hallym University,South Korea,33,355,478
+932,Fourth Military Medical University,China,60,355,478
+933,University of the Republic (Uruguay),Uruguay,1,355,478
+934,Dokuz EylÌ_l University,Turkey,10,355,478
+935,Nanjing University of Aeronautics and Astronautics,China,61,355,478
+936,Public University of Navarre,Spain,39,355,478
+937,University of A CoruÌ±a,Spain,40,355,478
+938,Isfahan University of Technology,Iran,4,355,478
+939,University of New England (Australia),Australia,27,355,478
+940,Federal University of Pernambuco,Brazil,15,355,478
+941,Jiangsu University,China,62,355,478
+942,Third Military Medical University,China,63,355,478
+943,South China Normal University,China,64,355,478
+944,University of Limerick,Ireland,8,355,478
+945,Xiangtan University,China,65,355,393
+946,Yangzhou University,China,66,355,478
+947,Northwestern Polytechnical University,China,67,355,417
+948,University of Reims Champagne-Ardenne,France,47,355,478
+949,Ibaraki University,Japan,74,355,478
+950,Chung Shan Medical University,Taiwan,19,355,478
+951,Alexandria University,Egypt,2,254,478
+952,Yuan Ze University,Taiwan,20,355,478
+953,University of Cyprus,Cyprus,1,355,478
+954,University of Silesia,Poland,9,355,478
+955,Southern Medical University,China,68,355,478
+956,Shiraz University,Iran,5,355,478
+957,University of Bucharest,Romania,1,321,478
+958,Mansoura University,Egypt,3,355,478
+959,Amirkabir University of Technology,Iran,6,355,478
+960,Beijing Jiaotong University,China,69,355,478
+961,University of Valenciennes and Hainaut-Cambresis,France,48,355,478
+962,University of the Algarve,Portugal,7,355,478
+963,University of Chemistry and Technology Prague,Czech Republic,5,355,478
+964,Federal University of CearÌÁ,Brazil,16,355,478
+965,Ain Shams University,Egypt,4,355,478
+966,University of Oldenburg,Germany,55,355,478
+967,Federal University of Bahia,Brazil,17,355,478
+968,Hunan Normal University,China,70,355,478
+969,Western Michigan University,USA,229,355,478
+970,University of Seoul,South Korea,34,355,478
+971,Federico Santa MarÌ_a Technical University,Chile,4,355,478
+972,Ryerson University,Canada,32,355,478
+973,South China Agricultural University,China,71,355,478
+974,Fu Jen Catholic University,Taiwan,21,355,478
+975,China Pharmaceutical University,China,72,355,478
+976,Tarbiat Modares University,Iran,7,355,478
+977,University of Puerto Rico at MayagÌ_ez,Puerto Rico,1,355,478
+978,National University of Rosario,Argentina,4,355,478
+979,University of Pau and Pays de l'Adour,France,49,355,478
+980,Xidian University,China,73,355,478
+981,Zhejiang University of Technology,China,74,355,478
+982,China Medical University (PRC),China,75,355,478
+983,Federal University of ABC,Brazil,18,355,478
+984,King Juan Carlos University,Spain,41,355,478
+985,Beijing University of Technology,China,76,355,478
+986,Guangxi University,China,77,313,478
+987,Northwest A&F University,China,78,355,478
+988,Shanxi University,China,79,355,478
+989,Tamkang University,Taiwan,22,355,478
+990,Harbin Medical University,China,80,355,478
+991,Zhejiang Normal University,China,81,355,478
+992,King Abdulaziz University,Saudi Arabia,4,355,470
+993,Iran University of Science and Technology,Iran,8,355,478
+994,I-Shou University,Taiwan,23,355,478
+995,University of Maine (Le Mans),France,50,355,478
+996,National Dong Hwa University,Taiwan,24,355,478
+997,National Taipei University of Technology,Taiwan,25,355,478
+998,Shaanxi Normal University,China,82,355,478
+999,National University of Defense Technology,China,83,355,478
+1000,Yanbian University,China,84,355,478

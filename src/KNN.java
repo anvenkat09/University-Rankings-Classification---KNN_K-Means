@@ -51,7 +51,7 @@ public class KNN {
 						System.out.println("Bad sized line.");
 						return;
 					}
-				    Properties p = new Properties(arr[1], (arr[2]), Integer.parseInt(arr[3]), Integer.parseInt(arr[4]));
+				    Properties p = new Properties(arr[1], arr[2], Integer.parseInt(arr[3]), Integer.parseInt(arr[4]), Integer.parseInt(arr[5]));
 				    listOfUni.add(p);
 				}
 				flag = true;	
