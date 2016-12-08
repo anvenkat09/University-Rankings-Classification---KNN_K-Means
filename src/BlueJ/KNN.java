@@ -125,6 +125,72 @@ public class KNN {
         clusters.put(oldCentroids.get(4), new ArrayList<University>());
 
     }
+    
+    /*
+     * Loops until centroid difference < .001
+     * 
+     * Loops through "clusters" HashMap and creates a new centroid for each cluster.
+     * Updates the "newCentroids" instance variable.
+     * Removes the old clusters in the "clusters" HashMap
+     * Calls "processClusters()"
+     */
+    
+    public static void getNewCentroids() {    	
+    	while(true) {
+    		ArrayList<University> centroids = new ArrayList<University>();
+        	
+        	for(Map.Entry<University, ArrayList<University>> cluster: clusters.entrySet()){
+                ArrayList<University> unis = cluster.getValue();
+                University newCentroid = getCentroid(unis);
+                centroids.add(newCentroid);
+                clusters.remove(cluster.getKey());
+            }
+        	
+        	newCentroids = centroids;
+        	
+        	if(getCentroidDifference(oldCentroids, newCentroids) < .001) {
+        		break;
+        	}
+        	
+        	oldCentroids = newCentroids;
+        	processClusters();
+    	}
+    }
+    
+    
+    public static double getCentroidDifference(ArrayList<University> a, ArrayList<University> b) {
+    	double totalDiff = 0;
+    	
+    	for(int i = 0; i < a.size(); i++) {
+    		totalDiff = a.get(i).distance(b.get(i));
+    	}
+    	
+    	return totalDiff / a.size();
+    }
+    /*
+     * Takes a list of universities and creates a new "mock" university that
+     * holds the values of the new centroid. Its name is defaulted to "centroid"
+     * 
+     */
+    public static University getCentroid(ArrayList<University> unis) {
+    	double nationalRankAvg = 0;
+    	double qualityOfEducationAvg = 0;
+    	double alumniEmploymentAvg = 0;
+    	
+    	if (unis == null) {
+    		System.out.println("Empty List");
+    		return null;
+    	}
+    	
+    	for(int i = 0; i < unis.size(); i++) {
+    		nationalRankAvg += unis.get(i).getNationalRank();
+    		qualityOfEducationAvg += unis.get(i).getQualityOfEducation();
+    		alumniEmploymentAvg += unis.get(i).getAlumniEmployment();
+    	}
+    	
+    	return new University("centroid", "centroid", (int)Math.floor(nationalRankAvg / unis.size()), 
+    			(int)Math.floor(qualityOfEducationAvg / unis.size()), (int)Math.floor(alumniEmploymentAvg / unis.size())); 
+    }
 
     public static void main(String[] args) {
         process(); // adds the data into the hashmap
