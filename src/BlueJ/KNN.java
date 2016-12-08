@@ -61,12 +61,13 @@ public class KNN {
         double min = 10000;
         int i, index = 0;
         for(i = 0; i < oldCentroids.size(); i++ ) {
-            res = oldCentroids.get(i).distance(current);
-            if(res < min && res != 0 ) {
-                min = res;
-                index = i;
-            }
-
+        	if(!current.getName().equals(oldCentroids.get(i).getName())){
+	            res = oldCentroids.get(i).distance(current);
+	            if(res < min) {
+	                min = res;
+	                index = i;
+	            }
+        	}
         }
 
         return oldCentroids.get(index);
