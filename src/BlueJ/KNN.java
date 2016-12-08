@@ -4,10 +4,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 import java.util.Scanner;
-import java.util.TreeMap;
 
 public class KNN {
     //public static HashMap<String, University> map;
@@ -49,28 +47,9 @@ public class KNN {
 
         /**
          * prints the list
-
         for(int i = 0; i < listOfUni.size(); i++){
         listOfUni.get(i).printUniversity();
         }*/
-    }
-
-    /**
-     * searches for k nearest neighbors (distance formula already applied)
-     * @param results
-     * @param kValue
-     */
-    public static void findNearestNeighbors(TreeMap <Double, String> results, int kValue){
-        int counter = -1;
-        for(Map.Entry<Double, String> entry: results.entrySet()){
-            if(counter < kValue){
-                if(counter >= 0){
-                    System.out.print(entry.getValue() + "-----");
-                    System.out.println(entry.getKey());
-                }
-                counter++;
-            }
-        }
     }
 
     /**
@@ -103,18 +82,16 @@ public class KNN {
                     temp = cluster.getValue();
                     temp.add(cur);
                     clusters.put(cluster.getKey(),temp);
-
                 }
             }
         }
-
     }
 
     public static void initializeClusters() {
         oldCentroids.add(new University("Harvard University", "USA", 1, 1, 1));
         oldCentroids.add(new University("Maastricht University", "Netherlands", 8, 355, 478));
         oldCentroids.add(new University("Otto-von-Guericke University Magdeburg", "Germany", 40, 355, 478));
-        oldCentroids.add(new University("Paul ValÃ­Â©ry University Montpellier III", "France", 35, 355, 478));
+        oldCentroids.add(new University("Paul Valí©ry University Montpellier III", "France", 35, 355, 478));
         oldCentroids.add(new University("Yanbian University", "China", 84, 355, 478));
 
         /*-----------------------------------------*/
@@ -123,7 +100,6 @@ public class KNN {
         clusters.put(oldCentroids.get(2), new ArrayList<University>());        
         clusters.put(oldCentroids.get(3), new ArrayList<University>());
         clusters.put(oldCentroids.get(4), new ArrayList<University>());
-
     }
     
     /*
@@ -138,12 +114,15 @@ public class KNN {
     public static void getNewCentroids() {    	
     	while(true) {
     		ArrayList<University> centroids = new ArrayList<University>();
-        	
+    		
+    		//old centroid list
+    		ArrayList<University> oldCentroidsToRemove = new ArrayList<University>();
+    		
         	for(Map.Entry<University, ArrayList<University>> cluster: clusters.entrySet()){
                 ArrayList<University> unis = cluster.getValue();
                 University newCentroid = getCentroid(unis);
                 centroids.add(newCentroid);
-                clusters.remove(cluster.getKey());
+                oldCentroidsToRemove.add(cluster.getKey());
             }
         	
         	newCentroids = centroids;
@@ -151,8 +130,23 @@ public class KNN {
         	if(getCentroidDifference(oldCentroids, newCentroids) < .001) {
         		break;
         	}
+
+        	
+        	/**
+        	 * removal done here via use of a new list to avoid concurrent modification exception
+        	 */
+        	for(University remCentroid: oldCentroidsToRemove){
+                clusters.remove(remCentroid);
+        	}
         	
         	oldCentroids = newCentroids;
+        	
+            clusters.put(oldCentroids.get(0), new ArrayList<University>());
+            clusters.put(oldCentroids.get(1), new ArrayList<University>());
+            clusters.put(oldCentroids.get(2), new ArrayList<University>());        
+            clusters.put(oldCentroids.get(3), new ArrayList<University>());
+            clusters.put(oldCentroids.get(4), new ArrayList<University>());
+
         	processClusters();
     	}
     }
@@ -191,12 +185,71 @@ public class KNN {
     	return new University("centroid", "centroid", (int)Math.floor(nationalRankAvg / unis.size()), 
     			(int)Math.floor(qualityOfEducationAvg / unis.size()), (int)Math.floor(alumniEmploymentAvg / unis.size())); 
     }
+    
+    /**
+     * takes user input and predicts which cluster that the new school will belong to
+     * @param args
+     */
+    public static void processUserInput(){
+    	ArrayList<University> uniList = new ArrayList<University>();
+    	String univName = null;
+    	String country = null;
+    	int nationalRank = 0;
+    	int qualityOfEdu = 0;
+    	int alumEmployment = 0;
+    	try{
+    		Scanner keyIn = new Scanner(System.in);
+
+    		while(true){
+	        	System.out.println("Press anything to enter university info, q to quit");
+	        	if(keyIn.nextLine().equals("q")){
+	        		break;
+	        	}
+    			
+    			System.out.print("Please Enter a University Name: ");
+		       	univName = keyIn.nextLine();
+		       	System.out.print("Please Enter a Country: ");
+		       	country = keyIn.next();
+		       	System.out.print("Please Enter a National Rank for your University: ");
+		       	nationalRank = keyIn.nextInt();
+		       	System.out.print("Please Enter a Quality of Education Rank for your University: ");
+		       	qualityOfEdu = keyIn.nextInt();
+		       	System.out.print("Please Enter a Alumni Employment Rank for your University: ");	
+	        	alumEmployment = keyIn.nextInt();
+	        	keyIn.nextLine(); // takes the new line char and continues
+	        	
+	        	University newUni = new University(univName, country, nationalRank, qualityOfEdu, alumEmployment);
+	        	uniList.add(newUni);
+    		}
+	        
+    		predictCluster(uniList);
+        	
+    	}catch(Exception e){
+    		e.printStackTrace();
+    	}
+    }
+    
+    /**
+     * predicts which cluster the new university is most likely to be in without reclustering using
+     * new centroids
+     * (Testing set)
+     * @param uni
+     */
+    public static void predictCluster(ArrayList<University> uniList){
+    	University target = null;
+    	for(University uni: uniList){
+    		target = findMin(uni);
+    		int indexOfMin = oldCentroids.indexOf(target);
+    		System.out.println("University: "+uni.getName()+" will likey fall in cluster "+(indexOfMin+1));
+    	}
+    }
 
     public static void main(String[] args) {
         process(); // adds the data into the hashmap
         initializeClusters();
         processClusters();
-
+        //getNewCentroids();
+        
         System.out.print("Cluster1 ==> ");
         oldCentroids.get(0).printUniversity();
         System.out.print(" ---- ");
@@ -217,6 +270,8 @@ public class KNN {
         oldCentroids.get(4).printUniversity();
         System.out.print(" ---- ");
         System.out.println(clusters.get(oldCentroids.get(4)).size());
-
+        System.out.println();
+        
+        processUserInput();
     }
 }
