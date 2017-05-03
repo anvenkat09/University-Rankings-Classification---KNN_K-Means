@@ -1,1 +1,1 @@
-# kNN-Data-Project
+# kMeans-Data-Project of Uni Rankings
