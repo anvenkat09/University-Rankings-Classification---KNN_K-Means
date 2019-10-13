@@ -1,1 +1,1 @@
- kNN + kMeans classification of uni rankings 
+ kNN + kMeans classification of university rankings 
